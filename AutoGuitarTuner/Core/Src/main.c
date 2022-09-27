@@ -87,8 +87,6 @@ char getCurrentNote(float frequency) {
 		return 'N';
 	}
 }
-
-
 /* USER CODE END 0 */
 
 /**
