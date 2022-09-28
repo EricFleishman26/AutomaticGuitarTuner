@@ -64,6 +64,7 @@ static void MX_USART2_UART_Init(void);
 
 
 char getCurrentNote(float frequency) {
+  //Takes calculated frequency as parameter and determines note based on its range
 	if(frequency > 50 && frequency <= 91) {
 		return 'E';
 	}
